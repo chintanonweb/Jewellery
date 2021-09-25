@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>DC Jewellers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="assets/vendor/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/vendor/owl/owl.theme.default.min.css">
+  <script src="https://kit.fontawesome.com/784d4ece04.js" crossorigin="anonymous"></script>
+  <script src="assets/js/nav.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-mainbg">
+    <div class="container-fluid pr-0">
+      <a class="navbar-brand navbar-logo" href="#"><b> DC Jewellers </b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <div class="hori-selector">
+            <div class="left"></div>
+            <div class="right"></div>
+          </div>
+          <li class="nav-item active">
+            <a class="nav-link" href="javascript:void(0);"><i class="fas fa-home"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);"><i class="fa fa-diamond "></i>Jewellery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Collection</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);"><i class="fas fa-info"></i>About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);"><i class="fas fa-id-card-alt"></i>Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid pl-0 pr-0 ">
+    <img src="assets/img/bg.jpg" class="img-fluid" alt="Responsive image">
+  </div>
+  <div class="bg-light pt-4 pb-4">
+    <div class="block-head text-center mb-3">
+      <h1 class="head-line display-5">
+        Popular Collection
+      </h1>
+      <p class="lead mt-2 head-desc">Browse The Most Desirable Collection</p>
+    </div>
+    <div id="collectionowl" class="owl-carousel owl-theme">
+      <div class="card bg-light hovereffect">
+        <img class="card-img" src="assets/img/jew3.jpg" alt="Card image">
+        <a class="text-white" href="">
+          <div class="card-img-overlay img-blur text-center d-flex h-100">
+            <div class="justify-content-center align-self-center w-100">
+              <i class="fa fa-diamond"></i>
+              <h5 class="card-title">Ladies Gold Kada</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card bg-light hovereffect">
+        <img class="card-img" src="assets/img/jew4.jpg" alt="Card image">
+        <a class="text-white" href="">
+          <div class="card-img-overlay img-blur text-center d-flex h-100">
+            <div class="justify-content-center align-self-center w-100">
+              <i class="fa fa-diamond"></i>
+              <h5 class="card-title">Ladies Gold Set</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="text-center mt-3"><a href="" class="btn btn-outline-warning w-auto">View All</a></div>
+  </div>
+  <div class="pb-4">
+    <div class="block-head text-center pt-5">
+      <h1 class="head-line display-5">
+        Most Visited Jewellery
+      </h1>
+      <p class="lead mt-2 head-desc">Discover Best Jewellery</p>
+    </div>
+    <div id="jewowl" class="owl-carousel owl-theme">
+      <div class="card hovereffect" style="min-height:500px">
+        <a class="text-white" href="">
+          <img src="assets/img/jew1.jpg" class="card-img-top" alt="<?php echo ($row->slsi_title); ?>">
+          <div class="card-body mt-2 text-center">
+            <a href="">
+              <h5>
+                <i class="fa fa-diamond"></i>
+                Gold Set 1
+              </h5>
+            </a>
+            <p>₹5999/-</p>
+            <span class="btn discount-label no-hover">
+              10% off</span>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="" class="btn btn-outline-warning btn-block"> Buy Now</a>
+          </div>
+        </a>
+      </div>
+      <div class="card hovereffect" style="min-height:500px">
+        <a class="text-white" href="">
+          <img src="assets/img/jew.jpg" class="card-img-top" alt="<?php echo ($row->slsi_title); ?>">
+          <div class="card-body mt-2 text-center">
+            <a href="">
+              <h5>
+                <i class="fa fa-diamond"></i>
+                Gold Set 2
+              </h5>
+            </a>
+            <p>₹5999/-</p>
+            <span class="btn discount-label no-hover">
+              10% off</span>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="" class="btn btn-outline-warning btn-block"> Buy Now</a>
+          </div>
+        </a>
+      </div>
+      <div class="card hovereffect" style="min-height:500px">
+        <a class="text-white" href="">
+          <img src="assets/img/jew2.jpg" class="card-img-top" alt="<?php echo ($row->slsi_title); ?>">
+          <div class="card-body mt-2 text-center">
+            <a href="">
+              <h5>
+                <i class="fa fa-diamond"></i>
+                Gold Set 3
+              </h5>
+            </a>
+            <p>₹5999/-</p>
+            <span class="btn discount-label no-hover">
+              10% off</span>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="" class="btn btn-outline-warning btn-block"> Buy Now</a>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="container text-center mt-3"><a href="" class="btn btn-outline-warning w-auto">View All Local
+        Stores</a>
+    </div>
+  </div>
+  <footer class="page-footer font-small unique-color-dark bg-light pt-3">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-3">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <a href="/"><img class="img-fluid" src="assets/img/logo.png" width="75%" alt="/"></a>
+          <!-- Social buttons -->
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a class="btn-social btn" href="" target="_blank">
+                <i class="fab fa-facebook-f"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-social btn" href="" target="_blank">
+                <i class="fab fa-instagram"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-social btn" href="" target="_blank">
+                <i class="fab fa-twitter"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-social btn" href="" target="_blank">
+                <i class="fab fa-linkedin-in"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-social btn" href="" target="_blank">
+                <i class="fab fa-pinterest"> </i>
+              </a>
+            </li>
+          </ul>
+          <!-- Social buttons -->
+        </div>
+        <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a class="btn btn-outline-warning w-100" href="">Collection</a>
+          </p>
+          <p>
+            <a class="btn btn-outline-warning w-100" href="">Jewellery</a>
+          </p>
+          <p>
+            <a class="btn btn-outline-warning w-100" href="">Contact Us</a>
+          </p>
+          <p>
+            <a class="btn btn-outline-warning w-100" href="">About</a>
+          </p>
+        </div>
+        <div class="col-md-4 text-justify">
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <ul class="fa-ul">
+            <li class="mb-2">
+              <span class="fa-li"><i class="fas fa-map-marker-alt text-warning"></i></span> C/307, 3rd Floor, Gokuldham
+              Complex,
+              Opp. Iscon Temple, S.G. Road, Ahmedabad, Dist. Ahmedabad, Gujarat (INDIA)
+            </li>
+            <li class="mb-2">
+              <span class="fa-li"><i class="fas fa-envelope text-warning"></i></span>info@dcjwellery.com
+            </li>
+            <li class="mb-2">
+              <span class="fa-li"><i class="fas fa-phone-alt text-warning"></i></span> + 91 1234567890
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3">
+      Copyright &copy; 2020 | <a href=""> DC Jewellery</a> | All Rights
+      Reserved.
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('#collectionowl').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        center: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 4
+          }
+        }
+      });
+      $('#jewowl').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        center: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 4
+          }
+        }
+      });
+    });
+
+  </script>
+</body>
+
+</html>
