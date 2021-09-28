@@ -1,2 +1,2 @@
-# Jewellery2
-Jewellery Template 2
+# Jewellery
+Jewellery Template
